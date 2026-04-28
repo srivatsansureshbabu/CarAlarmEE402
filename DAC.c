@@ -10,7 +10,7 @@
 #define	PI							3.1415926
 #define	CLOCK_FREQ			80000000	//??		// 80MHz
 
-// Macro to convert Hz to timer counts for a given clock and sine table size
+//// Macro to convert Hz to timer counts for a given clock and sine table size
 #define HZ_TO_COUNTS(f)	(CLOCK_FREQ / f / SINE_TABLE_SIZE)
 
 uint16_t data[SINE_TABLE_SIZE];	// Sine table - stored in RAM

@@ -454,6 +454,11 @@
               <FileType>1</FileType>
               <FilePath>.\DAC.c</FilePath>
             </File>
+            <File>
+              <FileName>UltrasonicSensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\UltrasonicSensor.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
