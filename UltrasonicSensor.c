@@ -179,13 +179,13 @@ void Display_Inches(void) {
 	//sprintf(str, "%.2f", distance);
 
 	if(distance < 5){
-		printf("Enemy Spotted!");
+		printf("Enemy Spotted!\r\n");
 		playNote(NOTE_E, HALF_NOTE_MS);
 		LED_On();
 	}
 	else{
 		LED_Off();
 	}
-	printf("Distance: %.2f: ",distance);
+	printf("Distance: %.2f\r\n",distance);
 	//OLED_DisplayString(str);		// Display measurement on LCD	
 }
